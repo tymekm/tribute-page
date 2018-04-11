@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+  background-color: #b1b0b4;
+  color: black;
+  border-color: black;
+}
+
+body {
+  font-family: Arial, sans-serif, monospace;
+  background-color: #edffec;
+}
+.main-text {
+  color: #393a39;
+  height: 75%;
+  width: 75%;
+}
+
+#pic {
+  width: 20%;
+}
+
+.quote {
+  text-align: right;
+  width:50%;
+  background-color: #b1b0b4;
+  padding-top: 3%; 
+}
+
+#quote-body {
+  font-size: 20px;
+  height: 60px;
+  text-align: center;
+}
+
+#quote-author {
+  text-align: right;
+}
+
+#page {
+  background-color: white;
+  margin-left: 3%;
+  margin-right: 3%;
+}
