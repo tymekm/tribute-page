@@ -7,21 +7,48 @@ h1 {
 
 body {
   font-family: Arial, sans-serif, monospace;
-  background-color: #edffec;
-}
-.main-text {
-  color: #393a39;
-  height: 75%;
-  width: 75%;
+  background-color: lightgreen;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
-#pic {
-  width: 20%;
+#page {
+  background-color: white;
+  display:grid;
+  grid-template-columns:1fr;
+  grid-template-rows:auto;
+  width:80%;
+  height:80%;
+}
+
+#tribute-info {
+  color: #393a39;
+  padding:20px 90px;
+}
+
+#img-div {
+	margin:auto;
+	display:grid;
+	grid-template-columns:1fr;
+	grid-template-rows:auto;
+}
+
+#img-caption {
+	text-align:center;
+	align-self:flex-end;
+}
+
+#image {
+	width:60%;
+	max-width:100%;
+	margin:auto;
 }
 
 .quote {
   text-align: right;
   width:50%;
+  margin:auto;
   background-color: #b1b0b4;
   padding-top: 3%; 
 }
@@ -36,8 +63,6 @@ body {
   text-align: right;
 }
 
-#page {
-  background-color: white;
-  margin-left: 3%;
-  margin-right: 3%;
+.tribute-link {
+	text-align:center;
 }
